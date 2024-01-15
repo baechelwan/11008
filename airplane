@@ -1,0 +1,58 @@
+int Buzzer_Pin = 7;
+
+void setup() {
+  pinMode(Buzzer_Pin, OUTPUT);
+}
+
+void loop() {
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 783);  //솔
+  delay(500);
+  tone(Buzzer_Pin, 698);  //파
+  delay(500);
+  tone(Buzzer_Pin, 783);  //솔
+  delay(500);
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 783);  //솔
+  delay(500);
+  tone(Buzzer_Pin, 783);  //솔
+  delay(500);
+  tone(Buzzer_Pin, 783);  //솔
+  delay(500);
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 783);  //솔
+  delay(500);
+  tone(Buzzer_Pin, 698);  //파
+  delay(500);
+  tone(Buzzer_Pin, 783);  //솔
+  delay(500);
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 783);  //솔
+  delay(500);
+  tone(Buzzer_Pin, 783);  //솔
+  delay(500);
+  tone(Buzzer_Pin, 880);  //라
+  delay(500);
+  tone(Buzzer_Pin, 783);  //솔
+  delay(500);
+  tone(Buzzer_Pin, 698);  //파
+  delay(500);
+}
